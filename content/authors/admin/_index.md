@@ -67,5 +67,5 @@ user_groups:
 - Visitors
 ---
 
-Sarah Berger is a graduate student in psychology at Western University. She is conducting research in Dr. Laura Batterink's Cognitive Neuroscience of Learning and Language Lab. Her research instests include the role of sleep in learning and memory consolidation over the course of development.
+Sarah Berger is a graduate student in psychology at Western University. She is conducting research in Dr. Laura Batterink's Cognitive Neuroscience of Learning and Language Lab. Her research intrests include the role of sleep in learning and memory consolidation over the course of development. {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
 

@@ -26,7 +26,7 @@ subtitle = ""
   
 [[feature]]
   icon = "python"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "Python"
 
 # Uncomment to use emoji icons.

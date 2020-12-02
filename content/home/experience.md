@@ -39,9 +39,9 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Conducted research and data analysis on developmental differences in the nature of memory representations after retreival
+  * Administrative duties such as facilitating REB ethics for all study protocols, organizing lab meetings, hiring and supervising research assistants, maintaining organized databases and recruiting participants
+  * Created an MTurk study for obtaining normalized data for object stimuli and analysed data using R
   """
 
   [[experience]]
@@ -54,8 +54,7 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Developed a thesis research project investigating how visual search is influenced by motor costs
+  * Tested participants using eye tracking and robotic manipulandum technology
   """
 +++

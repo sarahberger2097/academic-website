@@ -39,13 +39,13 @@ date_format = "Jan 2006"
   description = ""
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = ""
+  organization_url = ""
+  title = "Dean's Honpur List"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = ""
+  date_start = "2016-05-01"
+  date_end = "2019-05-01"
   description = ""
 
 +++

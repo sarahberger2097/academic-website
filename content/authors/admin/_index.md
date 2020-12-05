@@ -15,11 +15,11 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include the role of sleep in learning and memory consolidation over the course of development.
+bio: I am a MSc candidate at Western University studying the role of sleep in learning and memory consolidation over the course of development.
 
 interests:
-- Sleep Dependent Consolidation
-- Development
+- Sleep Dependent Memory Consolidation
+- Cognitive Development
 - Language Learning
 
 education:
@@ -41,10 +41,10 @@ social:
   link: mailto:sarahberger2097@gmail.com  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/SarahBerger_
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/sarahberger2097
@@ -67,5 +67,5 @@ user_groups:
 - Visitors
 ---
 
-Sarah Berger is a graduate student in psychology at Western University. She is conducting research in Dr. Laura Batterink's Cognitive Neuroscience of Learning and Language Lab. Her research intrests include the role of sleep in learning and memory consolidation over the course of development. {{% staticref "files/cv.pdf" "newtab" %}}Download my CV{{% /staticref %}}
+Sarah Berger (she/her) is a graduate student in Cognitive Developmental Brain Sciences at Western University. She is conducting research in Dr. Laura Batterink's Cognitive Neuroscience of Learning and Language Lab. Her research intrests include the role of sleep in learning and memory consolidation over the course of development. When not in the lab, she enjoys hiking, baking and binging Netflix. {{% staticref "files/cv.pdf" "newtab" %}}Download her CV{{% /staticref %}} 
 

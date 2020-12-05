@@ -37,7 +37,6 @@ date_format = "Jan 2006"
   date_start = "2019-06-01"
   date_end = "2020-08-01"
   description = """
-
   
   * Conducted research and data analysis on developmental differences in the nature of memory representations after retreival
   * Administrative duties such as facilitating REB ethics for all study protocols, organizing lab meetings, hiring and supervising research assistants, maintaining organized databases and recruiting participants

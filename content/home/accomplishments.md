@@ -41,7 +41,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = ""
   organization_url = ""
-  title = "Dean's Honpur List"
+  title = "Dean's Honour List"
   url = ""
   certificate_url = ""
   date_start = "2016-05-01"

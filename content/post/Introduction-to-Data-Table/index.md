@@ -1,10 +1,10 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Introduction to Data Table in R"
+title: "Introduction to data.table in R"
 subtitle: ""
 summary: ""
-authors: []
+authors: [Sarah Berger]
 tags: []
 categories: []
 date: 2020-12-05T11:49:47-05:00
@@ -27,7 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-One of the most exciting packages in the R universe is data.table. This package allows you to create data.table objects as an alternative to data.frame. The benefit of using data.table is the speed and efficiency of working with large datasets, and a concise syntax that can be really easy to use once you get used to it. 
+One of the most exciting packages in the R universe is data.table. This package allows you to create data.table objects as an alternative to data.frame. The benefit of using data.table is the speed and efficiency when working with large datasets, and a concise syntax that can be really easy to use once you get used to it. 
 
 ### Load data.table package and dataset
 

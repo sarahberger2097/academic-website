@@ -40,7 +40,7 @@ date_format = "Jan 2006"
   
   * Conducted research and data analysis on developmental differences in the nature of memory representations after retreival
   * Administrative duties such as facilitating REB ethics for all study protocols, organizing lab meetings, hiring and supervising research assistants, maintaining organized databases and recruiting participants
-  * Created an MTurk study for obtaining normalized data for object stimuli and analysed data using R for an open source software project available [here]({{<ref "/resources/resources/index.md">}}) 
+  * Created an MTurk study for obtaining normalized data for object stimuli and analysed data using R for an open source software project available [here]({{< ref "resources/index.md" >}}) 
   """
 
   [[experience]]

@@ -76,6 +76,7 @@ versicolor_sepal3 <- data[Species == "versicolor" & Sepal.Width < 3]
 head(versicolor_sepal3)
 
 ```
+{{< figure src="verisocolor_sepal3.png" >}}
 
 ##### Other special operators include %in% and %between%
 
@@ -84,7 +85,6 @@ head(versicolor_sepal3)
 setosa_virginica <- data[Species %in% c("setosa", "virginica")]
 
 pl_1.2_1.6 <- data[Petal.Length %between% c(1.2, 1.6)]
-head(pl_1.2_1.6)
 
 ```
 
@@ -101,6 +101,7 @@ species_sepalw <- data[, c("Species", "Sepal.Width")]
 species_sepalw <- data[, .(Species, Sepal.Width)]
 head(species_sepalw)
 ```
+{{< figure src="species_sepalw.png" >}}
 
 It is also easy to do computations on columns in data.table. Let's find the median sepal width
 
@@ -110,6 +111,7 @@ median_sw <- data[, median(Sepal.Width)]
 median_sw 
 
 ```
+{{< figure src="median_sw.png" >}}
 
 #### The := Operator: Creating New Columns
 
@@ -121,6 +123,7 @@ data[, Sepal.Area := Sepal.Length * Sepal.Width]
 head(data)
 
 ```
+{{< figure src="sepal.area.png" >}}
 
 Notice how the new column name is on the left of the operator, and the operation is on the right.
 
@@ -135,6 +138,7 @@ mean_by_species <- data[, .(mean.sepal.length = mean(Sepal.Length)), by = Specie
 mean_by_species
 
 ```
+{{< figure src="mean_by_species.png" >}}
 
 You can also create a new column by using the := operator, that is grouped by a variable (or multiple variables).
 
@@ -143,7 +147,7 @@ You can also create a new column by using the := operator, that is grouped by a 
 data[, mean.sepal.width := mean(Sepal.Width), by = Species]
 
 ```
-
+{{< figure src="mean.sepal.width.png" >}}
 
 ### The .N special symbol 
 
@@ -155,6 +159,7 @@ less_3_5 <- data[Sepal.Width < 3 & Sepal.Length < 5, .N]
 less_3_5
 
 ```
+{{< figure src="less_3_5.png" >}}
 
 .N becomes really useful when you want to also use "by". For example let's get the number of observations per species.
 
@@ -164,7 +169,7 @@ obs <- data[, .N, by = Species]
 obs
 
 ```
-
+{{< figure src="obs.png" >}}
 
 There are lots of other features of data.table that make it useful to use for data manipulation, but here I have gone over the basics and the operations that I use most often. If you are looking for more resources on using data.table you can:
 

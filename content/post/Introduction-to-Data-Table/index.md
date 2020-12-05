@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Introduction to Data Table"
+title: "Introduction to Data Table in R"
 subtitle: ""
 summary: ""
 authors: []
@@ -34,21 +34,20 @@ One of the most exciting packages in the R universe is data.table. This package 
 Lets first start with installing and loading the package. For this demonstration we will use the iris dataset that is preinstalled in R. 
 
 ```{r setup}
-#install.packages("data.table")
+install.packages("data.table")
 library(data.table)
 
-head(iris)
-
-data = setDT(copy(iris)) #note we have to create a copy because iris is built-in to R and thus not modifiable
+data = setDT(copy(iris)) 
+#note we have to create a copy because iris is built-in to R and thus not modifiable
 ```
 
-In this case we didn't import our data from a csv file, but if you have a large dataset that you need to import, the fread() function from data.table allows for extremely quick importing of data from either a csv file or a URL. 
+In this case we didn't import our data from a csv file, but if you have a large dataset that you need to import, the `fread()` function from data.table allows for extremely quick importing of data from either a csv file or a URL. 
 
-Also, here we converted an existing data frame to a data table object using setDT(). We could also use as.data.frame() for an existing object, or create our own data table by inputting data using data.table()
+Also, here we converted an existing data frame to a data table object using `setDT()`. We could also use `as.data.frame()` for an existing object, or create our own data table by inputting data using `data.table()`
 
 ### Data Table Syntax
 
-The main syntax that data table uses is the DT[i, j, by]
+The main syntax that data table uses is the `DT[i, j, by]`
 
 {{< figure src="ijby.png" >}}
 
@@ -62,13 +61,17 @@ Let's say we only want the 15th row of our dataset. Or only data for flowers of 
 
 row_15 <- data[15]
 row_15
+```
+{{< figure src="row_15.png" >}}
 
+```{r filter2}
 # versicolor species
 versicolor <- data[Species == "versicolor"]
 head(versicolor)
-
+```
+{{< figure src="verisocolor.png" >}}
+```{r filter3}
 #versicolor species with a sepal width less than 3
-
 versicolor_sepal3 <- data[Species == "versicolor" & Sepal.Width < 3]
 head(versicolor_sepal3)
 
@@ -79,7 +82,6 @@ head(versicolor_sepal3)
 ```{r rows2}
 
 setosa_virginica <- data[Species %in% c("setosa", "virginica")]
-head(setosa_virginica)
 
 pl_1.2_1.6 <- data[Petal.Length %between% c(1.2, 1.6)]
 head(pl_1.2_1.6)
@@ -94,10 +96,10 @@ Let say you want all rows, but only the Species and sepal width columns. Note th
 ```{r column}
 
 species_sepalw <- data[, c("Species", "Sepal.Width")]
-head(species_sepalw)
 
 #an alternate way of writing a list in data.table is by using .() 
 species_sepalw <- data[, .(Species, Sepal.Width)]
+head(species_sepalw)
 ```
 
 It is also easy to do computations on columns in data.table. Let's find the median sepal width

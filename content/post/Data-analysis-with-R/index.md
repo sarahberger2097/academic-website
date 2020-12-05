@@ -1,9 +1,9 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Getting Introduced to Data Analysis with R"
+title: "The Importance of Reproducible Code"
 subtitle: ""
-summary: "Coding from the perspective of a newbie"
+summary: "Lessons learned from the perspective of a newbie"
 authors: [Sarah Berger]
 tags: []
 categories: []

@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "Recent & Upcoming Talks"
+title = "Poster Presentations"
 subtitle = ""
 
 [content]
@@ -39,7 +39,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 1
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -68,3 +68,9 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+
+
+**Berger, S.**, Moskowitz, J. & Flanagan R. (2019, April). *The influence of motor
+costs on visual search when reaching for target objects.* Undergraduate
+Thesis Poster Presentations, Kingston. {{% staticref "files/Berger_Sarah_BBCS_Poster_2019.pdf" "newtab" %}} see PDF {{% /staticref %}}

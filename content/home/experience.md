@@ -37,11 +37,11 @@ date_format = "Jan 2006"
   date_start = "2019-06-01"
   date_end = "2020-08-01"
   description = """
-  Responsibilities include:
+
   
   * Conducted research and data analysis on developmental differences in the nature of memory representations after retreival
   * Administrative duties such as facilitating REB ethics for all study protocols, organizing lab meetings, hiring and supervising research assistants, maintaining organized databases and recruiting participants
-  * Created an MTurk study for obtaining normalized data for object stimuli and analysed data using R
+  * Created an MTurk study for obtaining normalized data for object stimuli and analysed data using R for an open source software project available [here]({{<ref "/resources/resources/index.md">}}) 
   """
 
   [[experience]]
@@ -52,7 +52,7 @@ date_format = "Jan 2006"
   date_start = "2018-09-01"
   date_end = "2019-05-01"
   description = """
-  Responsibilities include:
+
   
   * Developed a thesis research project investigating how visual search is influenced by motor costs
   * Tested participants using eye tracking and robotic manipulandum technology

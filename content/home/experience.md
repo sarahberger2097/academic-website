@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
    
-  * Conducting Masters thesis on the role of sleep in implict and explicit language learning over the course of development
+  * Conducting Masters Thesis on the role of sleep in implict and explicit language learning over the course of development
   """
 
 [[experience]]
@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   description = """
   
   * Conducted research and data analysis on developmental differences in the nature of memory representations after retreival
-  * Administrative duties such as facilitating REB ethics for all study protocols, organizing lab meetings, hiring and supervising research assistants, maintaining organized databases and recruiting participants
+  * Performed administrative duties such as facilitating REB ethics for all study protocols, organizing lab meetings, hiring and supervising research assistants, maintaining organized databases and recruiting participants
   * Created an MTurk study for obtaining normalized data for object stimuli and analysed data using R for an open source software project soon available [here](https://duncanlab.org/index.php/resources/) 
   """
 

@@ -4,7 +4,7 @@
 title: "Introduction to data.table in R"
 subtitle: ""
 summary: ""
-authors: [Sarah Berger]
+authors: []
 tags: []
 categories: []
 date: 2020-12-05T11:49:47-05:00

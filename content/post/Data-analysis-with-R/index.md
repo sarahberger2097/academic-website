@@ -4,7 +4,7 @@
 title: "The Importance of Reproducible Code"
 subtitle: ""
 summary: "Lessons learned from the perspective of a newbie"
-authors: [Sarah Berger]
+authors: []
 tags: []
 categories: []
 date: 2020-11-30T19:34:08-05:00
@@ -28,28 +28,26 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-Write my post here `a=1`
 
-```r
+After I started conducting data analysis in R, I quickly realized that making your code easily reproducible is one of the most important steps to improving your research workflow. Trust me, I learned some of these lessons the hard way. The major benefits of making your code easy to understand and easy to reproduce are:
 
-#this is some r code
+* You can share code easily with others and they won’t be unable to run it or be completely lost
+* A few months down the line you can come back to your code and actually understand what the heck was going on
+* You’ll be bound to make less errors
+* It makes writing and reading code a much more pleasant experience 
 
-a = 2
-b= 3
-y = a+b
-print(y)
+My top tips for making your code understandable and reproducible in R: 
 
-```
-That was some code
+1. Start by creating an .RProj file in a new folder on your computer. This allows you to add any files you might need into the folder with the RProj and have a simple working directory. Then when loading files into your code, you can use relative file paths. If you need to share the project, you can easily zip it and send it to someone else, and all the necessary files will already be in there (with no need to change the file paths)!
 
+2. I like to use RMarkdown. With RMarkdown you can integrate code “chunks” with plain text, making it easy to organize and explain your code. You can also “knit” the document to create either a PDF or an html file. 
 
-## The importance of reproducible code
+3. Load all libraries at the top of your code. 
 
-Last year I was quickly thrown into the world of coding and statistics with R. I had taken some undergraduate statistics courses that involved using R, but all that really taught me how to do was copy and paste the instructor's code to complete an assignment. 
+4. Make sure your code runs in order. It can sometimes be tempting to test stuff out and run things line by line, but this will make it much harder for you or anyone else to reproduce. Another benefit to using RMarkdown is that your document won’t knit properly unless it can run altogether.
 
-Google became my new best friend. My searches got more and more specific (see: "insert funny and specific google search here") and yet stackoverflow still seemed to have an answer!
+5. Add comments to your code. This will make it so much easier for others and future you to understand what you were doing. I like to split my code up into sections and add a general explanation of what I am doing and why at the beginning of each section. Then within the body of the code, I will use #comments to explain the individual steps. You don’t need to comment literally every line, but make sure to annotate what is not obvious. 
 
-While I was able to put out fires and stumble my way through an analysis, what I had in my file was a bit of a mess. Here are some sins I have learned to avoid:
-1. I didn't comment anything
-2. The script wasn't in order so I would have to run things line by line
-3. I had no clear naming conventions and would end up working with dataframes called data_clean_3 (not knowing if there was a data_clean_4) and what that meant
+6. Make the names of your objects informative and intuitive. 
+
+Good luck and make sure to do what works for you!

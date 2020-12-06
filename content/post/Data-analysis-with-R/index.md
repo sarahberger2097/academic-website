@@ -3,7 +3,7 @@
 
 title: "The Importance of Reproducible Code"
 subtitle: ""
-summary: "Lessons learned from the perspective of a newbie"
+summary: ""
 authors: []
 tags: []
 categories: []

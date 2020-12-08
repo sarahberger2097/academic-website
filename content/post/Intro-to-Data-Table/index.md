@@ -91,7 +91,7 @@ pl_1.2_1.6 <- data[Petal.Length %between% c(1.2, 1.6)]
 
 #### Working with columns
 
-Let say you want all rows, but only the Species and sepal width columns. Note that you will leave the i section empty by just adding a comma before the j section.
+Let say you want to filter your dataset to contain all rows, but only the Species and Sepal Width columns. Note that you will leave the i section empty by just adding a comma before the j section.
 
 ```{r column}
 
@@ -115,7 +115,7 @@ median_sw
 
 #### The := Operator: Creating New Columns
 
-Using the ":=" operator in the j section allows you to create new columns using existing ones. When doing this, you don't have to assign the result to a new object, because the column will be directly added to the current data table. For example, let's compute sepal area (length x width)
+Using the ":=" operator in the j section allows you to create new columns using existing ones. When creating columns by reference, you don't have to assign the result to a new object, because the column will be directly added to the current data table. For example, let's compute sepal area (length x width)
 
 ```{r column3}
 
@@ -171,7 +171,7 @@ obs
 ```
 {{< figure src="obs.png" >}}
 
-There are lots of other features of data.table that make it useful to use for data manipulation, but here I have gone over the basics and the operations that I use most often. If you are looking for more resources on using data.table you can:
+There are lots of other features of data.table that make it useful to use for data manipulation, but here I have gone over the basics and the operations that I use most often. Notice how easy it is to manipulate tables and combine multiple operations in only one line of code! If you are looking for more resources on using data.table you can:
 
 1. Visit the [CRAN](https://cran.r-project.org/web/packages/data.table/data.table.pdf)
 2. Complete a datacamp tutorial. Here is one called [Data Manipulation with data.table in R](https://learn.datacamp.com/courses/data-manipulation-with-datatable-in-r)

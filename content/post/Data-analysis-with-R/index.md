@@ -31,12 +31,12 @@ projects: []
 
 After I started conducting data analysis in R, I quickly realized that making your code easily reproducible is one of the most important steps to improving your research workflow. Trust me, I learned some of these lessons the hard way. The major benefits of making your code easy to understand and easy to reproduce are:
 
-* You can share code easily with others and they won’t be unable to run it or be completely lost 
+* You can share code easily with others and they will be able to run it and won't be completely lost 
 * A few months down the line you can come back to your code and actually understand what the heck was going on
 * You’re bound to make less errors
 * It makes writing and reading code a much more pleasant experience 
 
-##### My top tips for making your code readable and reproducible in RStudio: 
+### My top tips for making your code readable and reproducible in RStudio: 
 
 
 1. Start by creating an R project (.RProj file) in a new folder on your computer. This allows you to have a separate directory for each project you work on. You can then add your script and any files you might need into the folder with the RProj and have a simple working directory. Then when loading files into your code, you can use relative file paths. If you need to share the project, you can easily zip it and send it to someone else, and all the necessary files will already be in there (with no need to change the file paths)!
